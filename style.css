@@ -1,0 +1,78 @@
+body {
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.main {
+    padding-top: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+    margin-bottom: 25px;
+    border-left: 6px solid #1e88e5;
+}
+
+.card h1 {
+    color: #1565c0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    color: #1565c0;
+}
+
+.card p {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+.stSubheader {
+    color: #1565c0;
+    font-weight: 600;
+}
+
+.prediction-box {
+    background: linear-gradient(135deg, #43a047, #66bb6a);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    box-shadow: 0 5px 15px rgba(67, 160, 71, 0.3);
+}
+
+div[data-testid="metric-container"] {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border: 1px solid #e0e0e0;
+}
+
+.stSlider > div > div > div {
+    color: #1e88e5;
+}
+
+.stDataFrame {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+button[kind="primary"] {
+    background-color: #1e88e5;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+button[kind="primary"]:hover {
+    background-color: #1565c0;
+}
